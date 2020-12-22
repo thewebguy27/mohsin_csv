@@ -1,5 +1,4 @@
 import pyspark
-from pyspark.sql.session import SparkSession
 import pyspark.sql.functions as f 
 from pyspark.sql.window import *
 import sched, time
