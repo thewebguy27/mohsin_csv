@@ -18,7 +18,7 @@ def runAnalytics(df):
   start = start + 500
 
 companies = sqlContext.read.format("csv").option("header", "true").option("inferSchema", "true").load("file:///root/finalFYP.csv")
-all = companies.withColumn('index', monotonically_increasing_id())
+all = companies.withColumn('index', f.monotonically_increasing_id())
 
 
 s = sched.scheduler(time.time, time.sleep)
