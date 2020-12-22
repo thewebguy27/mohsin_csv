@@ -1,4 +1,4 @@
-Product_name,Product_Price,Company Product,Product_Warranty_Years,Product_Min_order,Product_Rating,Product_Raters,product_feedback,Product_Delivery_ResponseRate,Product_Sale,Product_Reviews,Product_Port,Prod_origin_place,polarity scores,polar_review,Predicted_Raters,Predicted_Reviews,Predicted_Rating,Product suppliers
+Product_name,Product_Price,Product_Company,Product_Warranty_Years,Product_Min_order,Product_Rating,Product_Raters,product_feedback,Product_Delivery_ResponseRate,Product_Sale,Product_Reviews,Product_Port,Prod_origin_place,polarity scores,polar_review,Predicted_Raters,Predicted_Reviews,Predicted_Rating,Product suppliers
 Plus Series Switches ,1850,Jinxian technology Co. Ltd.,5,1 Piece,4.9,18,Good response,90,0,15,Shenzhen  HK,Guangdong China,0.4404,Positive,154,123,5,94.1
 Plus Series Switches ,1850,Jinxian technology Co. Ltd.,5,1 Piece,4.9,18,Good response,90,0,15,China Shenzhen Hong Kong Moscow,Liaoning China,0.4404,Positive,101,123,3.9,94.1
 Plus Series Switches ,1850,Jinxian technology Co. Ltd.,5,1 Piece,4.9,18,Good response,90,0,15,Shanghai Ningbo Shenzhen for PoE Extender,Zhejiang China,0.4404,Positive,90,123,3.7,94.1
