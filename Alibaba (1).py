@@ -14,10 +14,10 @@ def runAnalytics(df):
   start = start + 500
 
 
-companies = spark.read.option("inferSchema", "true").option("header", "true").csv("hdfs://alibaba.xls",multiLine=True)
+companies = spark.read.option("inferSchema", "true").option("header", "true").csv("/user/root/FYP/AliBaba",multiLine=True)
 all = companies.withColumn('index', f.row_number().over(Window.partitionBy().orderBy("Product_name")))
 
-print('asif')
+print('mohsin')
 
 s = sched.scheduler(time.time, time.sleep)
 
